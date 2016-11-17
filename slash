@@ -1,0 +1,4 @@
+        $slash = substr($arResult[$index]["LINK"], -1);
+        if($slash != '/'){
+            $arResult[$index]["LINK"] = $arResult[$index]["LINK"].'/';
+        }  - для добавления слеша в конце ссылки, если его нет, или не добавления если он есть.
